@@ -1,20 +1,22 @@
-±¾´ÎÊµÑéÈÎÎñÍ¨¹ýÊ¹ÓÃ×ÔÐÐ±àÒëµÄhadoop-eclipse-plugin-2.9.1²å¼þÔÚeclipseÏÂÔËÐÐ£»
-ÊµÑéhadoop»·¾³Îª2.9.1£¬eclipseÎªRelease 4.8.0 (Photon)£¬ÔËÐÐ·½Ê½ÎªÎ±·Ö²¼¡£
+161278039 è–›å²šå¤©ä½œä¸šäº”
 
-½¨Á¢ÏîÄ¿Ãû³ÆÎªKmeans£¬ÔÚrelationµÄsrcÖÐ¼ÓÈë¸Ã´úÂë¡£
+æœ¬æ¬¡å®žéªŒä»»åŠ¡é€šè¿‡ä½¿ç”¨è‡ªè¡Œç¼–è¯‘çš„hadoop-eclipse-plugin-2.9.1æ’ä»¶åœ¨eclipseä¸‹è¿è¡Œï¼›
+å®žéªŒhadoopçŽ¯å¢ƒä¸º2.9.1ï¼Œeclipseä¸ºRelease 4.8.0 (Photon)ï¼Œè¿è¡Œæ–¹å¼ä¸ºä¼ªåˆ†å¸ƒã€‚
 
-ÆäÖÐInstance.java¶¨Òå½Úµã³ÊÏÖ·½Ê½£¨×ø±êÐÎÊ½£©¼°½ÚµãÏà¹Ø³£ÓÃ²Ù×÷Èç¶ÁÈë¡¢¼Ó¡¢³Ë¡¢Êä³öµÈ£»
-Cluster.java ¶¨ÒåÁË¾ÛÀà´ØµÄ½á¹¹£º¾ÛÀà´ØÓÉid¡¢¾ÛÀà´ØÖÐ½Úµã¸öÊý¡¢ÖÐÐÄ½ÚµãÊµÀý×é³É¡£Í¬Ê±¶¨ÒåÁËÒ»Ð©¾ÛÀà´Ø³£ÓÃµÄ²Ù×÷Èç»ñÈ¡¾ÛÀà´Øid¡¢½Úµã¸öÊý¡¢Êä³öµÈ£»
-EuclideanDistance.java¶¨ÒåÁË¼ÆËãÁ½µã¼ä¾àÀëµÄ·½·¨£»
-KMeans.javaÊµÏÖÎª½ÚµãÑ¡ÔñÖÐÐÄ£¬Êä³öÃ¿´Îµü´ú²úÉúµÄ¾ÛÀà´Ø£»
-KMeansCluster.java¸ù¾ÝKMeansÃ¿´ÎÑ¡¶¨µÄÖÐÐÄ¼°½ÚµãÊôÓÚ¾ÛÀà´ØµÄÇé¿ö²úÉúÃ¿´Î¾ÛÀàºóµÄ¾ßÌåÇéÐÎ£»
-RandomClusterGenerator.javaÓÃÓÚ³õÊ¼»¯Êý¾Ý£¬´Ó³õÊ¼Êý¾ÝÖÐËæ»úÑ¡È¡ÒªÇó¸öÊýµÄÖÐÐÄ¡£
-KMeansDriver.javaÈ«¾ÖÍ³³ïÕû¸ö³ÌÐòÔËÐÐ£¬ÊµÏÖKMeansËã·¨µÄ¶à´Îµü´ú¡£
+å»ºç«‹é¡¹ç›®åç§°ä¸ºKmeansï¼Œåœ¨relationçš„srcä¸­åŠ å…¥è¯¥ä»£ç ã€‚
 
-ÎÒÔËÐÐ´Ë´úÂëÊ±ÎÄ¼þ½á¹¹ÈçÏÂ£º
-hdfs://localhost:9000/user/user/KMeansinputÖÐ´æ·Å´¦ÀíÎÄ¼þInstance.txt£»
-Êä³öÂ·¾¶Îª hdfs://localhost:9000/user/user/KMeansoutput£»
+å…¶ä¸­Instance.javaå®šä¹‰èŠ‚ç‚¹å‘ˆçŽ°æ–¹å¼ï¼ˆåæ ‡å½¢å¼ï¼‰åŠèŠ‚ç‚¹ç›¸å…³å¸¸ç”¨æ“ä½œå¦‚è¯»å…¥ã€åŠ ã€ä¹˜ã€è¾“å‡ºç­‰ï¼›
+Cluster.java å®šä¹‰äº†èšç±»ç°‡çš„ç»“æž„ï¼šèšç±»ç°‡ç”±idã€èšç±»ç°‡ä¸­èŠ‚ç‚¹ä¸ªæ•°ã€ä¸­å¿ƒèŠ‚ç‚¹å®žä¾‹ç»„æˆã€‚åŒæ—¶å®šä¹‰äº†ä¸€äº›èšç±»ç°‡å¸¸ç”¨çš„æ“ä½œå¦‚èŽ·å–èšç±»ç°‡idã€èŠ‚ç‚¹ä¸ªæ•°ã€è¾“å‡ºç­‰ï¼›
+EuclideanDistance.javaå®šä¹‰äº†è®¡ç®—ä¸¤ç‚¹é—´è·ç¦»çš„æ–¹æ³•ï¼›
+KMeans.javaå®žçŽ°ä¸ºèŠ‚ç‚¹é€‰æ‹©ä¸­å¿ƒï¼Œè¾“å‡ºæ¯æ¬¡è¿­ä»£äº§ç”Ÿçš„èšç±»ç°‡ï¼›
+KMeansCluster.javaæ ¹æ®KMeansæ¯æ¬¡é€‰å®šçš„ä¸­å¿ƒåŠèŠ‚ç‚¹å±žäºŽèšç±»ç°‡çš„æƒ…å†µäº§ç”Ÿæ¯æ¬¡èšç±»åŽçš„å…·ä½“æƒ…å½¢ï¼›
+RandomClusterGenerator.javaç”¨äºŽåˆå§‹åŒ–æ•°æ®ï¼Œä»Žåˆå§‹æ•°æ®ä¸­éšæœºé€‰å–è¦æ±‚ä¸ªæ•°çš„ä¸­å¿ƒã€‚
+KMeansDriver.javaå…¨å±€ç»Ÿç­¹æ•´ä¸ªç¨‹åºè¿è¡Œï¼Œå®žçŽ°KMeansç®—æ³•çš„å¤šæ¬¡è¿­ä»£ã€‚
 
-³ÌÐò½«eclipseÓëhadoopÓÃ×Ô¼º±àÒëµÄ²å¼þÁ¬½ÓºóÔËÐÐ£¬ÔÚconfiguraionµÄargumentsÖÐprogram argumentÀ¸ÒÀ´ÎÊäÈëÖÐÐÄ¸öÊý¡¢µü´ú´ÎÊý¡¢¹ØÏµÎÄ¼þËùÔÚÂ·¾¶¼°Êä³öÂ·¾¶¼´¿ÉÔËÐÐ¡£
+æˆ‘è¿è¡Œæ­¤ä»£ç æ—¶æ–‡ä»¶ç»“æž„å¦‚ä¸‹ï¼š
+hdfs://localhost:9000/user/user/KMeansinputä¸­å­˜æ”¾å¤„ç†æ–‡ä»¶Instance.txtï¼›
+è¾“å‡ºè·¯å¾„ä¸º hdfs://localhost:9000/user/user/KMeansoutputï¼›
 
-±¾ÀýÖÐÎÒÑ¡È¡µÄÖÐÐÄµã¸öÊýÎªÈý£¬µü´ú´ÎÊýÎªÎå£¬½«¿ÉÊÓ»¯½á¹ûÕ¹Ê¾ÔÚÎÄ¼þ¼ÐÖÐ£¬¿ÉÒÔ¿´µ½£¬Ëæµü´ú´ÎÊýÔö¼Ó¾ÛÀàÐ§¹û¸ü¼ÓÃ÷ÏÔÇÒÇ÷ÓÚÎÈ¶¨¡£
+ç¨‹åºå°†eclipseä¸Žhadoopç”¨è‡ªå·±ç¼–è¯‘çš„æ’ä»¶è¿žæŽ¥åŽè¿è¡Œï¼Œåœ¨configuraionçš„argumentsä¸­program argumentæ ä¾æ¬¡è¾“å…¥ä¸­å¿ƒä¸ªæ•°ã€è¿­ä»£æ¬¡æ•°ã€å…³ç³»æ–‡ä»¶æ‰€åœ¨è·¯å¾„åŠè¾“å‡ºè·¯å¾„å³å¯è¿è¡Œã€‚
+
+æœ¬ä¾‹ä¸­æˆ‘é€‰å–çš„ä¸­å¿ƒç‚¹ä¸ªæ•°ä¸ºä¸‰ï¼Œè¿­ä»£æ¬¡æ•°ä¸ºäº”ï¼Œå°†å¯è§†åŒ–ç»“æžœå±•ç¤ºåœ¨æ–‡ä»¶å¤¹ä¸­ï¼Œå¯ä»¥çœ‹åˆ°ï¼Œéšè¿­ä»£æ¬¡æ•°å¢žåŠ èšç±»æ•ˆæžœæ›´åŠ æ˜Žæ˜¾ä¸”è¶‹äºŽç¨³å®šã€‚
