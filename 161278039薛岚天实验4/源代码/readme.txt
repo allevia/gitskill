@@ -1,7 +1,7 @@
-È«²¿´úÂë·ÖÎªÈý¸ö´óÀà£ºÊý¾Ý³õ²½´¦Àí¡¢ÆÓËØ±´Ò¶Ë¹¼° 
-ÔËÐÐÊ±ÏÈÔËÐÐÊý¾Ý³õ²½´¦ÀíÀà£¨Data_proc.java£©,ÊäÈë²ÎÊýË³ÐòÎª£ºÑµÁ·¼¯Êý¾ÝÂ·¾¶¡¢Êý¾Ý³õ²½´¦ÀíÊä³öÂ·¾¶¡¢Í£´Ê±íÂ·¾¶£»
-È»ºóÔËÐÐÆÓËØ±´Ò¶Ë¹Ïà¹ØÀà£¨Search_Data.java, Proc_prob.javaºÍNaiveB.java£¬Ö÷ÀàÎªSearch_Data.java£©£¬ÊäÈë²ÎÊýË³ÐòÎª£º²âÊÔ¼¯Êý¾ÝÊäÈëÂ·¾¶¡¢²âÊÔÊý¾Ý´¦Àíºó½á¹ûÊä³öÂ·¾¶¡¢Í£´ÊÎÄ¼þÂ·¾¶(ÓÃÓÚSearch_Data.java)¡¢Ô¤²â½á¹ûÊä³öÂ·¾¶£¨ÓÃÓÚNaiveB.java£©¡¢Êý¾Ý³õ²½´¦ÀíÊä³öÂ·¾¶¼°¸ù¾Ý³õ²½´¦Àí½á¹ûµÃµ½µÄ¸ÅÂÊÊä³öÂ·¾¶£¨ÓÃÓÚProc_prob.java£©£»
-×îºóÔËÐÐKNNÏà¹ØÀà£¨ITF.java, TF_idf_test.java, Tf_idf_train.java, KNN.java¼°Instance.java£©·ÖÎªÈý´ó¿é¡£ITF.javaºÍTf_idf_train.java¼ÆËãÑµÁ·Êý¾ÝTF-TDFÏòÁ¿£¬Ö÷ÀàÎªTf_idf_train.java£»ÊäÈë²ÎÊýË³ÐòÎª£ºÊý¾Ý³õ²½´¦Àí½×¶ÎÊä³öÂ·¾¶¡¢¼ÆËãITFµÄµ¥¶ÀÊä³öÂ·¾¶¡¢³õ²½Êý¾Ý´¦Àí½×¶Î»ù±¾Çé¿öÍ³¼ÆÊä³öÂ·¾¶¡¢ÑµÁ·Êý¾ÝÊäÈëÂ·¾¶¡¢ÑµÁ·Êý¾Ýtf-idfÖµÊä³öÂ·¾¶¼°Í£´ÊÎÄ¼þÂ·¾¶£»TF_idf_test.java¼ÆËã²âÊÔÊý¾ÝTF-IDFÏòÁ¿£¬ÊäÈë²ÎÊýË³ÐòÎª£º²âÊÔÊý¾ÝÊäÈëÂ·¾¶¡¢²âÊÔÊý¾ÝtfÖµÊä³öÂ·¾¶¡¢Í£´ÊÎÄ¼þÂ·¾¶¼°×îÖÕtf-idfÖµÊä³öÂ·¾¶£» KNN.java¼°Instance.java×îÖÕ¼ÆËãÔ¤²â½á¹û£¬Ö÷ÀàÎªKNN.java£¬ÊäÈë²ÎÊýË³ÐòÎª£º²âÊÔÊý¾Ýtf-idfÖµÊä³öÂ·¾¶¡¢×îÖÕ½á¹ûÊä³öÂ·¾¶¡¢ÑµÁ·¼¯tf-idfÖµÎÄ¼þÂ·¾¶¼°ËùÓÃKNNµÄkÖµ
+å…¨éƒ¨ä»£ç åˆ†ä¸ºä¸‰ä¸ªå¤§ç±»ï¼šæ•°æ®åˆæ­¥å¤„ç†ã€æœ´ç´ è´å¶æ–¯åŠKNN
+è¿è¡Œæ—¶å…ˆè¿è¡Œæ•°æ®åˆæ­¥å¤„ç†ç±»ï¼ˆData_proc.javaï¼‰,è¾“å…¥å‚æ•°é¡ºåºä¸ºï¼šè®­ç»ƒé›†æ•°æ®è·¯å¾„ã€æ•°æ®åˆæ­¥å¤„ç†è¾“å‡ºè·¯å¾„ã€åœè¯è¡¨è·¯å¾„ï¼›
+ç„¶åŽè¿è¡Œæœ´ç´ è´å¶æ–¯ç›¸å…³ç±»ï¼ˆSearch_Data.java, Proc_prob.javaå’ŒNaiveB.javaï¼Œä¸»ç±»ä¸ºSearch_Data.javaï¼‰ï¼Œè¾“å…¥å‚æ•°é¡ºåºä¸ºï¼šæµ‹è¯•é›†æ•°æ®è¾“å…¥è·¯å¾„ã€æµ‹è¯•æ•°æ®å¤„ç†åŽç»“æžœè¾“å‡ºè·¯å¾„ã€åœè¯æ–‡ä»¶è·¯å¾„(ç”¨äºŽSearch_Data.java)ã€é¢„æµ‹ç»“æžœè¾“å‡ºè·¯å¾„ï¼ˆç”¨äºŽNaiveB.javaï¼‰ã€æ•°æ®åˆæ­¥å¤„ç†è¾“å‡ºè·¯å¾„åŠæ ¹æ®åˆæ­¥å¤„ç†ç»“æžœå¾—åˆ°çš„æ¦‚çŽ‡è¾“å‡ºè·¯å¾„ï¼ˆç”¨äºŽProc_prob.javaï¼‰ï¼›
+æœ€åŽè¿è¡ŒKNNç›¸å…³ç±»ï¼ˆITF.java, TF_idf_test.java, Tf_idf_train.java, KNN.javaåŠInstance.javaï¼‰åˆ†ä¸ºä¸‰å¤§å—ã€‚ITF.javaå’ŒTf_idf_train.javaè®¡ç®—è®­ç»ƒæ•°æ®TF-TDFå‘é‡ï¼Œä¸»ç±»ä¸ºTf_idf_train.javaï¼›è¾“å…¥å‚æ•°é¡ºåºä¸ºï¼šæ•°æ®åˆæ­¥å¤„ç†é˜¶æ®µè¾“å‡ºè·¯å¾„ã€è®¡ç®—ITFçš„å•ç‹¬è¾“å‡ºè·¯å¾„ã€åˆæ­¥æ•°æ®å¤„ç†é˜¶æ®µåŸºæœ¬æƒ…å†µç»Ÿè®¡è¾“å‡ºè·¯å¾„ã€è®­ç»ƒæ•°æ®è¾“å…¥è·¯å¾„ã€è®­ç»ƒæ•°æ®tf-idfå€¼è¾“å‡ºè·¯å¾„åŠåœè¯æ–‡ä»¶è·¯å¾„ï¼›TF_idf_test.javaè®¡ç®—æµ‹è¯•æ•°æ®TF-IDFå‘é‡ï¼Œè¾“å…¥å‚æ•°é¡ºåºä¸ºï¼šæµ‹è¯•æ•°æ®è¾“å…¥è·¯å¾„ã€æµ‹è¯•æ•°æ®tfå€¼è¾“å‡ºè·¯å¾„ã€åœè¯æ–‡ä»¶è·¯å¾„åŠæœ€ç»ˆtf-idfå€¼è¾“å‡ºè·¯å¾„ï¼› KNN.javaåŠInstance.javaæœ€ç»ˆè®¡ç®—é¢„æµ‹ç»“æžœï¼Œä¸»ç±»ä¸ºKNN.javaï¼Œè¾“å…¥å‚æ•°é¡ºåºä¸ºï¼šæµ‹è¯•æ•°æ®tf-idfå€¼è¾“å‡ºè·¯å¾„ã€æœ€ç»ˆç»“æžœè¾“å‡ºè·¯å¾„ã€è®­ç»ƒé›†tf-idfå€¼æ–‡ä»¶è·¯å¾„åŠæ‰€ç”¨KNNçš„kå€¼
 
-ÓÉÓÚ²ÎÊý½Ï¶à±È½Ï¸´ÔÓ£¬¿ÉÒÔ²Î¼ûÊµÑé±¨¸æ¶ÔÊäÈë²ÎÊýµÄÊ¾Àý£»
-Îª¸üºÃÁË½â´úÂë¹¦ÄÜ£¬¿ÉÒÔ²Î¼ûÊµÑé±¨¸æ£¬»¹¿ÉÒÔ½áºÏ/¸¨ÖúÊý¾ÝÎÄ¼þ/ÖÐ¼ä½á¹ûÎÄ¼þ½øÒ»²½ÁË½â¡£
+ç”±äºŽå‚æ•°è¾ƒå¤šæ¯”è¾ƒå¤æ‚ï¼Œå¯ä»¥å‚è§å®žéªŒæŠ¥å‘Šå¯¹è¾“å…¥å‚æ•°çš„ç¤ºä¾‹ï¼›
+ä¸ºæ›´å¥½äº†è§£ä»£ç åŠŸèƒ½ï¼Œå¯ä»¥å‚è§å®žéªŒæŠ¥å‘Šï¼Œè¿˜å¯ä»¥ç»“åˆ/è¾…åŠ©æ•°æ®æ–‡ä»¶/ä¸­é—´ç»“æžœæ–‡ä»¶è¿›ä¸€æ­¥äº†è§£ã€‚
